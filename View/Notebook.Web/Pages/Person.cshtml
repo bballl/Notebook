@@ -1,0 +1,15 @@
+﻿@page
+@model Notebook.Web.Pages.PersonModel
+
+<head>
+    <title>Контактная информация</title>
+</head>
+
+<h3>Контактная информация</h3>
+
+<body style="font-size:large; margin-left:100px;">
+    <div><strong>@Model.person.LastName @Model.person.FirstName @Model.person.MiddleName</strong></div>
+    <div><strong>Телефон: @Model.person.Phone</strong></div>
+    <div><strong>Адрес: @Model.person.Address</strong></div>
+    <div><strong>Описание: @Model.person.Description</strong></div>
+</body>
